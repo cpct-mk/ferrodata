@@ -15,7 +15,7 @@ class MeasurementType(Enum):
     PUND = "pund"
     DHM = "dhm"
     FATIGUE = "fatigue"
-    UNKNOWN = "unknown"
+    RETENTION = "retention" # to be implemented
 
 
 @dataclass
