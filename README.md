@@ -59,20 +59,6 @@ Open the tutorial notebook:
 jupyter notebook notebooks/ferrodata_walkthrough.ipynb
 ```
 
-## Publish To GitHub
-
-This project includes a helper script:
-
-```bash
-./publish_to_github.sh <github-username> <repo-name>
-```
-
-Before publishing, ensure:
-1. `git` works in your terminal.
-2. Your local git identity is configured:
-   `git config --global user.name "Your Name"`
-   `git config --global user.email "you@example.com"`
-3. The target GitHub repo exists (or create it at `https://github.com/new`).
 
 ## License
 
