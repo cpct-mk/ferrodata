@@ -41,7 +41,7 @@ from ferrodata import (
 )
 
 # Parse
-m = read_dat("examples/[example data]WMO 1-2-2 10IDE D1 PUND.dat")
+m = read_dat("examples/[example data]PUND.dat")
 
 # Export CSV
 export_all_tables_csv(m, "out_csv")
